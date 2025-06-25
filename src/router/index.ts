@@ -15,6 +15,14 @@ const routes: Array<RouteRecordRaw> = [
         meta: {
           title: '商品管理'
         }
+      },
+      {
+        path: '/store/management',
+        name: 'StoreManagement',
+        component: () => import('@/views/store/management/index.vue'),
+        meta: {
+          title: '店铺管理'
+        }
       }
     ]
   }

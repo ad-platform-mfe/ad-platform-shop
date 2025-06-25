@@ -16,6 +16,16 @@ const Store = sequelize.define(
       allowNull: false,
       comment: "商铺名称",
     },
+    address: {
+      type: DataTypes.STRING(255),
+      allowNull: true,
+      comment: "商铺地址",
+    },
+    phone: {
+      type: DataTypes.STRING(20),
+      allowNull: true,
+      comment: "联系电话",
+    },
     created_at: {
       type: DataTypes.DATE,
       allowNull: false,

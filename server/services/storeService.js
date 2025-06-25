@@ -52,7 +52,7 @@ class StoreService {
   // 创建新商铺
   async createStore(storeData) {
     try {
-      const { name } = storeData;
+      const { name, address, phone } = storeData;
 
       if (!name) {
         return {
@@ -81,7 +81,7 @@ class StoreService {
   // 更新商铺信息
   async updateStore(storeId, storeData) {
     try {
-      const { name } = storeData;
+      const { name, address, phone } = storeData;
 
       if (!name) {
         return {
