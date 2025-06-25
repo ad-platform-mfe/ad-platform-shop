@@ -6,4 +6,7 @@ export interface Product {
   status: 'published' | 'draft'
   cover: string
   createdAt: string
+  store: string
+  totalCount: number
+  availableCount: number
 }

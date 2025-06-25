@@ -9,7 +9,10 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-01 10:00:00'
+    createdAt: '2023-10-01 10:00:00',
+    store: '数码旗舰店',
+    totalCount: 100,
+    availableCount: 85
   },
   {
     id: '2',
@@ -19,7 +22,10 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-02 11:30:00'
+    createdAt: '2023-10-02 11:30:00',
+    store: '键盘专卖店',
+    totalCount: 50,
+    availableCount: 32
   },
   {
     id: '3',
@@ -29,7 +35,10 @@ export const mockProducts: Product[] = [
     status: 'draft',
     cover:
       'https://images.pexels.com/photos/4318822/pexels-photo-4318822.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-03 15:00:00'
+    createdAt: '2023-10-03 15:00:00',
+    store: '摄影器材店',
+    totalCount: 30,
+    availableCount: 30
   },
   {
     id: '4',
@@ -39,7 +48,10 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/276534/pexels-photo-276534.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-04 09:00:00'
+    createdAt: '2023-10-04 09:00:00',
+    store: '家居生活馆',
+    totalCount: 25,
+    availableCount: 10
   },
   {
     id: '5',
@@ -49,7 +61,10 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/3734035/pexels-photo-3734035.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-05 14:20:00'
+    createdAt: '2023-10-05 14:20:00',
+    store: '咖啡用品店',
+    totalCount: 60,
+    availableCount: 45
   },
   {
     id: '6',
@@ -59,7 +74,10 @@ export const mockProducts: Product[] = [
     status: 'draft',
     cover:
       'https://images.pexels.com/photos/8968233/pexels-photo-8968233.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-06 18:00:00'
+    createdAt: '2023-10-06 18:00:00',
+    store: '厨房电器店',
+    totalCount: 40,
+    availableCount: 40
   },
   {
     id: '7',
@@ -69,7 +87,10 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/5966033/pexels-photo-5966033.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-07 12:00:00'
+    createdAt: '2023-10-07 12:00:00',
+    store: '厨房电器店',
+    totalCount: 35,
+    availableCount: 20
   },
   {
     id: '8',
@@ -79,7 +100,10 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-08 16:45:00'
+    createdAt: '2023-10-08 16:45:00',
+    store: '数码配件店',
+    totalCount: 80,
+    availableCount: 65
   },
   {
     id: '9',
@@ -89,7 +113,10 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-09 20:00:00'
+    createdAt: '2023-10-09 20:00:00',
+    store: '家居生活馆',
+    totalCount: 120,
+    availableCount: 100
   },
   {
     id: '10',
@@ -99,7 +126,10 @@ export const mockProducts: Product[] = [
     status: 'draft',
     cover:
       'https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-10 13:10:00'
+    createdAt: '2023-10-10 13:10:00',
+    store: '摄影器材店',
+    totalCount: 15,
+    availableCount: 15
   },
   {
     id: '11',
@@ -109,7 +139,10 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/2422265/pexels-photo-2422265.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-11 17:30:00'
+    createdAt: '2023-10-11 17:30:00',
+    store: '户外用品店',
+    totalCount: 45,
+    availableCount: 30
   },
   {
     id: '12',
@@ -119,6 +152,9 @@ export const mockProducts: Product[] = [
     status: 'published',
     cover:
       'https://images.pexels.com/photos/4348633/pexels-photo-4348633.jpeg?auto=compress&cs=tinysrgb&w=400',
-    createdAt: '2023-10-12 22:00:00'
+    createdAt: '2023-10-12 22:00:00',
+    store: '健康生活馆',
+    totalCount: 200,
+    availableCount: 180
   }
 ]
