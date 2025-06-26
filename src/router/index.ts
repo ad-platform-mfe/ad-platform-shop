@@ -17,8 +17,8 @@ const routes: Array<RouteRecordRaw> = [
         }
       },
       {
-        path: '/store/management',
-        name: 'StoreManagement',
+        path: '/products-filter',
+        name: 'productsFilter',
         component: () => import('@/views/store/management/index.vue'),
         meta: {
           title: '店铺管理'
